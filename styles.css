@@ -5,8 +5,14 @@ body{
     /* align-items: center;
     justify-content: center; */
     font-family: 'Bai Jamjuree', sans-serif;
+    
 
 
+}
+h1{
+ color:hsl(210, 10%, 33%);
+ font-size:22px;
+ font-weight: 600;
 }
 p{
     font-size: 18px;
