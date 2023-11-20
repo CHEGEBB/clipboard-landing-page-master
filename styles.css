@@ -1,0 +1,417 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body{
+    background-color:hsl(210, 10%, 33%);
+    /* align-items: center;
+    justify-content: center; */
+    font-family: 'Bai Jamjuree', sans-serif;
+
+
+}
+p{
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    max-width: 1000px;
+    margin: 0 auto;
+
+
+}
+.header{
+    background-image: url("./images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.logo{
+    width: 150px;
+    margin-left: 45%;
+    margin-top:200px;
+    
+}
+.intro{
+    text-align: center;
+    width: 500px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -50px;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 70px;
+    justify-content: center;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: 0;
+    color: #ffff;
+}
+.btn1{
+background-color: hsl(171, 66%, 44%);
+}
+.btn2{
+background-color: hsl(233, 100%, 69%);
+}
+.track{
+    margin-top: 60px;
+}
+.mac{
+
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin-top: 40px;
+}
+.desktop img{
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+}
+.quick{
+    width: 300px;
+}
+.clipboard{
+    width: 550px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tablet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.phone{
+    
+}
+.phone img{
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.functions{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 50px;
+
+}
+.supercharge{
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+.padicon{
+    margin-left: 80px;
+}
+.blacklists{
+    width: 300px;
+}
+.letter{
+    margin-left: 80px;
+}
+.plain{
+    width: 320px;
+}
+.eye{
+    margin-left: 80px;
+}
+.sneak{
+    width: 320px; 
+}
+
+.down{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.store{
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 200px;
+}
+.buttons2{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.btn3{
+    background-color: hsl(171, 66%, 44%);
+}
+.btn4{
+    background-color: hsl(233, 100%, 69%);
+}
+.footer{
+    background-color: hsl(201, 11%, 66%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 50px;
+}
+.logo2 img{
+    width: 50px;
+    height: 50px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: indianred;
+}
+.socials img:hover{
+    cursor: pointer;
+    background-color: indianred;
+}
+
+
+/* mobile view */
+@media (max-width: 768px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffff;
+        max-width: 1000px;
+        margin: 0 auto;
+    
+    
+    }
+    .header{
+        background-image: url("./images/bg-header-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+    .logo{
+        width: 150px;
+        margin-left: 34%;
+        margin-top:200px;
+        
+    }
+    .intro{
+        text-align: center;
+        width: 320px;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: -50px;
+        justify-content: center;
+    
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        border: 0;
+        color: #ffff;   
+       
+    }
+    .btn1{
+    background-color: hsl(171, 66%, 44%);
+    }
+    .btn2{
+    background-color: hsl(233, 100%, 69%);
+    }
+    .track{
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .mac{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+        margin-top: 40px;
+    }
+    .desktop img{
+        width: 320px;
+        height: 210px;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .search{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .quick{
+        width: 300px;
+    }
+    .clipboard{
+        width: 320px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .tablet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .phone{
+        
+    }
+    .phone img{
+        width: 320px;
+        height: 210px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .functions{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .brands{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 50px;
+    
+    }
+    .supercharge{
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+    }
+    .padicon{
+        margin-left: 120px;
+    }
+    .blacklists{
+        width: 300px;
+    }
+    .letter{
+        margin-left: 120px;
+    }
+    .plain{
+        width: 320px;
+    }
+    .eye{
+        margin-left: 120px;
+    }
+    .sneak{
+        width: 320px; 
+    }
+
+    .down{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .store{
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+        margin-top: 50px;
+        width: 320px;
+        margin-left: -0px;
+    }
+    .buttons2{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+        margin-top: 50px;
+        align-items: center;
+    }
+    .btn3{
+        background-color: hsl(171, 66%, 44%);
+    }
+    .btn4{
+        background-color: hsl(233, 100%, 69%);
+    }
+    .footer{
+        background-color: hsl(201, 11%, 66%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 550px;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    .logo2 img{
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .fc{
+        display:flex  ;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .fc2{
+        display:flex  ;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 15px;
+    }
+}
