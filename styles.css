@@ -270,7 +270,7 @@ button:hover{
         align-items: center;
         width: 320px;
         text-align: center;
-        margin-left: 10px;
+        margin-left: -10px;
     }
     .mac{
     
