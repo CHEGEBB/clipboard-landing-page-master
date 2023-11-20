@@ -270,7 +270,7 @@ button:hover{
         align-items: center;
         width: 320px;
         text-align: center;
-        margin-left: -20px;
+        margin-left: -15px;
     }
     .mac{
     
@@ -282,7 +282,7 @@ button:hover{
     .desktop img{
         width: 320px;
         height: 240px;
-        margin-left: 20px;
+        margin-left: 15px;
         align-items: center;
         justify-content: center;
     }
